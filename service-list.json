@@ -1,0 +1,116 @@
+{
+    "items": [
+        {
+            "uid": "desktop",
+            "type": "file",
+            "title": "Desktop",
+            "subtitle": "~/Desktop",
+            "arg": "~/Desktop",
+            "autocomplete": "Desktop",
+            "icon": {
+                "type": "fileicon",
+                "path": "~/Desktop"
+            }
+        },
+        {
+            "uid": "cloud_storage",
+            "title": "Cloud Storage",
+            "subtitle": "Object store",
+            "arg": "storage/browser",
+            "icon": {
+                "path": "img/Storage/Cloud Storage.png"
+            }
+        },
+        {
+            "uid": "compute_engine",
+            "title": "Compute Engine",
+            "subtitle": "Virtual Machines",
+            "match": "compute engine vm vms",
+            "arg": "compute/instances",
+            "icon": {
+                "path": "img/Compute/Compute Engine.png"
+            }
+        },
+        {
+            "uid": "cloud_sql",
+            "title": "Cloud SQL",
+            "subtitle": "Fully-managed SQL databas service",
+            "arg": "sql",
+            "icon": {
+                "path": "img/Databases/Cloud SQL.png"
+            }
+        },
+        {
+            "uid": "kubernetes",
+            "title": "Kubernetes Engine (GKE)",
+            "match": "kubernetes engine k8s gke",
+            "subtitle": "Fully-managed Kubernetes cluster",
+            "arg": "kubernetes/list",
+            "icon": {
+                "path": "img/Compute/Kubernetes Engine.png"
+            }
+        },
+        {
+            "uid": "stackdriver",
+            "title": "Stackdriver",
+            "subtitle": "Monitoring and Alerting",
+            "arg": "stackdriver",
+            "icon": {
+                "path": "img/Management Tools/Stackdriver.png"
+            }
+        },
+        {
+            "uid": "stackdriver_logging",
+            "title": "Logging",
+            "subtitle": "Stackdriver Logging",
+            "arg": "logs/viewer",
+            "icon": {
+                "path": "img/Management Tools/Logging.png"
+            }
+        },
+        {
+            "valid": false,
+            "uid": "flickr",
+            "title": "Flickr",
+            "icon": {
+                "path": "flickr.png"
+            }
+        },
+        {
+            "uid": "image",
+            "type": "file",
+            "title": "My holiday photo",
+            "subtitle": "~/Pictures/My holiday photo.jpg",
+            "autocomplete": "My holiday photo",
+            "icon": {
+                "type": "filetype",
+                "path": "public.jpeg"
+            }
+        },
+        {
+            "valid": false,
+            "uid": "alfredapp",
+            "title": "Alfred Website",
+            "subtitle": "https://www.alfredapp.com/",
+            "arg": "alfredapp.com",
+            "autocomplete": "Alfred Website",
+            "quicklookurl": "https://www.alfredapp.com/",
+            "mods": {
+                "alt": {
+                    "valid": true,
+                    "arg": "alfredapp.com/powerpack",
+                    "subtitle": "https://www.alfredapp.com/powerpack/"
+                },
+                "cmd": {
+                    "valid": true,
+                    "arg": "alfredapp.com/powerpack/buy/",
+                    "subtitle": "https://www.alfredapp.com/powerpack/buy/"
+                }
+            },
+            "text": {
+                "copy": "https://www.alfredapp.com/ (text here to copy)",
+                "largetype": "https://www.alfredapp.com/ (text here for large type)"
+            }
+        }
+    ]
+}
