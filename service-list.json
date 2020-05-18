@@ -22,6 +22,15 @@
             }
         },
         {
+            "uid": "cloud_nat",
+            "title": "Cloud NAT",
+            "subtitle": "Cloud NAT",
+            "arg": "net-services/nat/list",
+            "icon": {
+                "path": "img/Networking/Cloud NAT.png"
+            }
+        },
+        {
             "uid": "compute_engine",
             "title": "Compute Engine",
             "subtitle": "Virtual Machines",
@@ -51,10 +60,21 @@
             }
         },
         {
-            "uid": "stackdriver",
-            "title": "Stackdriver",
-            "subtitle": "Monitoring and Alerting",
-            "arg": "stackdriver",
+            "uid": "monitoring",
+            "title": "Monitoring",
+            "subtitle": "Monitoring",
+            "match": "stackdriver monitoring",
+            "arg": "monitoring",
+            "icon": {
+                "path": "img/Management Tools/Monitoring.png"
+            }
+        },
+        {
+            "uid": "monitoring_alerting",
+            "title": "Alerting",
+            "subtitle": "Stackdriver Monitoring Alerting",
+            "match": "stackdriver alerting",
+            "arg": "monitoring/alerting",
             "icon": {
                 "path": "img/Management Tools/Stackdriver.png"
             }
@@ -69,22 +89,13 @@
             }
         },
         {
-            "valid": false,
-            "uid": "flickr",
-            "title": "Flickr",
+            "uid": "container_registry",
+            "title": "Container Registry",
+            "subtitle": "Container Registry",
+            "match": "gcr container registry docker",
+            "arg": "gcr",
             "icon": {
-                "path": "flickr.png"
-            }
-        },
-        {
-            "uid": "image",
-            "type": "file",
-            "title": "My holiday photo",
-            "subtitle": "~/Pictures/My holiday photo.jpg",
-            "autocomplete": "My holiday photo",
-            "icon": {
-                "type": "filetype",
-                "path": "public.jpeg"
+                "path": "img/Management Tools/Logging.png"
             }
         },
         {
