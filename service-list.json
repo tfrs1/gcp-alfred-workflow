@@ -99,6 +99,16 @@
             }
         },
         {
+            "uid": "cloud_functions",
+            "title": "Cloud Functions",
+            "subtitle": "Cloud Functions",
+            "match": "cloud functions serverless",
+            "arg": "functions/list",
+            "icon": {
+                "path": "img/Compute/Cloud Functions.png"
+            }
+        },
+        {
             "valid": false,
             "uid": "alfredapp",
             "title": "Alfred Website",
