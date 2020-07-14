@@ -109,6 +109,26 @@
             }
         },
         {
+            "uid": "pub_sub",
+            "title": "Pub/Sub",
+            "subtitle": "Pub/Sub",
+            "match": "pub sub",
+            "arg": "cloudpubsub/topic/list",
+            "icon": {
+                "path": "img/Data Analytics/Cloud PubSub.png"
+            }
+        },
+        {
+            "uid": "iam_admin",
+            "title": "IAM",
+            "subtitle": "Identity and Access Management",
+            "match": "iam identity access",
+            "arg": "iam-admin/iam",
+            "icon": {
+                "path": "img/Security/Cloud IAM.png"
+            }
+        },
+        {
             "valid": false,
             "uid": "alfredapp",
             "title": "Alfred Website",
